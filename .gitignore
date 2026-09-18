@@ -1,0 +1,29 @@
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and test artifacts
+build/
+dist/
+coverage/
+
+# Local evidence and traffic captures
+evidence/
+*.pcap
+*.pcapng
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
